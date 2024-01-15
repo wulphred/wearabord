@@ -23,7 +23,7 @@ The current version of the Wearabord concept is designed to support the followin
 
 If you are interested in following the guide, you are of course able to personalize your design according to your own preferences.
 
-![](media/demo.mp4)
+https://github.com/wulphred/wearabord/assets/155734133/394db9b3-82f9-4098-9001-75f46a317a3b
 
 # Personal Build
 
