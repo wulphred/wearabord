@@ -69,7 +69,7 @@ The following files contain [the following work](https://github.com/Bastardkb/Ch
 
 - [files/stl/wearabord-frame/v1.stl](files/stl/wearabord-frame/v1.stl)
 - [files/cura/v1.3mf](files/cura/v1.3mf)
-- [files/blender/wearaboard.blend](files/blender/wearaboard.blend)
+- [files/blender/wearabord.blend](files/blender/wearabord.blend)
 - [docs/media/blender_3d_print_toolbox.png](docs/media/blender_3d_print_toolbox.png)
 - [docs/media/blender_bridge_faces.png](docs/media/blender_bridge_faces.png)
 - [docs/media/blender_frame_result.png](docs/media/blender_frame_result.png)
@@ -87,7 +87,7 @@ The following files contain [the following work](https://github.com/Bastardkb/Ch
 - [files/stl/scew-insert-sockets/screw_insert_sockets.stl](files/stl/scew-insert-sockets/screw_insert_sockets.stl)
 - [files/cura/v1.3mf](files/cura/v1.3mf)
 - [files/stl/wearabord-frame/v1.stl](files/stl/wearabord-frame/v1.stl)
-- [files/blender/wearaboard.blend](files/blender/wearaboard.blend)
+- [files/blender/wearabord.blend](files/blender/wearabord.blend)
 - [docs/media/blender_frame_result.png](docs/media/blender_frame_result.png)
 - [media/left.png](media/left.png)
 - [media/right.png](media/right.png)
