@@ -100,7 +100,7 @@ The version numbers of the software used in this guide are listed for completene
 
 ### Parts
 
-The parts used for this project will set you back approximately €30 per hand, and an additional €70 for one trackball or €110 for two trackballs, this is assuming you have free access to the required tools and already own the required consumable materials (wire, filament and solder wire). These prices are based on shipping to Europe. If you don't live in Europe it might be worthwile to look into sourcing alternative trackball parts, [like this one](https://www.tindie.com/products/citizenjoe/pmw3360-motion-sensor/) and using [an adapter](https://www.printables.com/en/model/619514-pmw3360-tindie-board-to-charybdis-bastardkb-adapte).
+The parts used for this project will set you back approximately €30 per hand if you go for a cheap microcontroller like the Waveshare RP2040-zero, and an additional €70 for one trackball or €110 for two trackballs, this is assuming you have free access to the required tools and already own the required consumable materials (wire, filament and solder wire). These prices are based on shipping to Europe. If you don't live in Europe it might be worthwile to look into sourcing alternative trackball parts, [like this one](https://www.tindie.com/products/citizenjoe/pmw3360-motion-sensor/) and using [an adapter](https://www.printables.com/en/model/619514-pmw3360-tindie-board-to-charybdis-bastardkb-adapte).
 <details>
   <summary>Alternative trackpad option</summary>
 
@@ -114,7 +114,7 @@ This list is for **one hand**, if you want to make the Wearabord for both hands 
 
 | Description                                                                         | Notes                                                                                                                             |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Pro Micro-compatible microcontroller                                                | You could also use a WaveShare RP2040-zero as a cheap alternative, but this option requires an alternative microcontroller holder |
+| Pro Micro-compatible microcontroller                                                | You could also use a Waveshare RP2040-zero as a cheap alternative, but this option requires an alternative microcontroller holder |
 | Pink Kailh Low Profile Choc Switches (x10)                                          | MX switches can also be used but I recommend low actuation force and low profile switches                                         |
 | Keycaps (x10)                                                                       | I recommend low profile keycaps                                                                                                   |
 | Hotswap sockets (x10)                                                               | I used Choc Kailh Hotswap Sockets but these aren't required                                                                       |
@@ -158,7 +158,7 @@ If you want only one trackball in total, this option is probably the cheapest. Y
 
 If you don't feel like placing an order at JLCPCB or any other manufacturer for the [microcontroller holder](https://github.com/Bastardkb/Elite-C-holder) you can try to connect a 3D printable holder to your Wearabord 3d model, you'll learn how to do such a thing later on in this guide. There are a few ready made 3D printable holders for the following microcontrollers:
 
-- [WaveShare RP2040-Zero](https://www.printables.com/model/701889-dactyl-manuform-external-holder-for-waveshare-rp20)
+- [Waveshare RP2040-Zero](https://www.printables.com/model/701889-dactyl-manuform-external-holder-for-waveshare-rp20)
 - [AITRIP Pro Micro (USB-C)](https://www.printables.com/model/152130-dactyl-maniform-pro-micro-v2-type-c-sled)
 - [Elite-C Low Profile](https://www.thingiverse.com/thing:4809401)
 - [Elite-C](https://www.thingiverse.com/thing:4693404)
@@ -210,7 +210,7 @@ I scanned my hand by placing the iPad on a table with the front camera facing do
 
 If you are happy with the result of one of the scans, export it as an OBJ file, select MM for the scale option, enable the "Choose 3D editor" toggle and select Blender. Save it anywhere and transfer it to your computer.
 
-In your computer, open Blender. In the menu that is in the center of the screen, select "General", under "New File". Click on the grey cube in the center and hit the ```Delete``` key on your keyboard. In the top left corner select "File" > "Import" > "Wavefront (.obj)" and select the scan you transferred to your computer. Save your current project by going to "File" > "Save" or using the shortcut ```Ctrl``` + ```S```
+In your computer, open Blender. In the menu that is in the center of the screen, select "General", under "New File". Click on the grey cube in the center and hit the ```Delete``` key on your keyboard. In the top left corner select "File" > "Import" > "Wavefront (.obj)" and select the scan you transferred to your computer. Save your current project by going to "File" > "Save" or using the shortcut ```Ctrl``` + ```S```.
 
 ## Designing the key switch holders
 
