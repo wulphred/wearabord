@@ -216,7 +216,7 @@ In your computer, open Blender. In the menu that is in the center of the screen,
 
 The required tolerances of the holders in which the keys switches will be inserted can vary from printer to printer and also change based on the angle at which the frame is printed. For this reason I will include instructions on how to design the key switch holders in FreeCAD, which will allow you to adjust the tolerances and the give you the option have your Wearabord frame support key switches that vary from the standard MX or Choc footprints.
 
-If your switches fit in one of the STL models I provided here, you don't need to follow these steps. To test the tolerances of one of the provided models, simply download the STL file that matches the key switches you plan to use and print it once flat on the build plate (horizontal) and once with the Y and X axis rotated 45 degrees. Use a brim and no supports.
+If your switches fit in one of the STL models I provided [here](https://github.com/wulphred/wearabord/tree/main/files/stl), you don't need to follow these steps. To test the tolerances of one of the provided models, simply download the STL file that matches the key switches you plan to use and print it once flat on the build plate (horizontal) and once with the Y and X axis rotated 45 degrees. Use a brim and no supports.
 
 ![](media/key_switch_holder.jpg)
 
@@ -326,7 +326,7 @@ If your switches fit in one of the STL models I provided here, you don't need to
 
   ### Adjusting the tolerances of the switch holder
 
-  To adjust the tolerances of the switch holder and haven't designed your own switch holder model from scratch, download the following FCStd file and open it in FreeCad. On the left side of your screen you should see the file name choc_switch_holder, followed by the Switch_holder body. Inside the Switch_holder body there are three pads and one pocket, each of these parts contains a sketch. To toggle the visibility of the different parts and sketches you can use the Space bar, note that parts are cumulative, meaning that the Top pad contains the Lip pad, the Bottom pad contains both the Top pad as well as the Lip and the Cut_out_example pocket part contains all of the pads that have been created before it.
+  To adjust the tolerances of the switch holder and haven't designed your own switch holder model from scratch, download [the following FCStd file](https://github.com/wulphred/wearabord/blob/main/files/freecad/choc_switch_holder.FCStd) and open it in FreeCad. On the left side of your screen you should see the file name choc_switch_holder, followed by the Switch_holder body. Inside the Switch_holder body there are three pads and one pocket, each of these parts contains a sketch. To toggle the visibility of the different parts and sketches you can use the Space bar, note that parts are cumulative, meaning that the Top pad contains the Lip pad, the Bottom pad contains both the Top pad as well as the Lip and the Cut_out_example pocket part contains all of the pads that have been created before it.
 
   To adjust the horizontal tolerances, open the sketch that belongs to the part you wish to adjust by double clicking it. You should now see something similar to the following:
 
@@ -418,7 +418,7 @@ If your switches fit in one of the STL models I provided here, you don't need to
   
   ### Using my personal design as a basis
 
-  If you weren't able to make a scan of your hand, you can print the frame I designed for the shape of my hand using the STL I provide here, test the fit and download the following Blender project to use as a basis for making an adaptation tailored to the shape of your own hand. Duplicate the v1_positions collection found in the panel on the right side of the screen by right clicking it and selecting "Duplicate Collection", you can rename this copy to v2_positions by double clicking on the name. It's best to toggle the visibility of the v1_positions and v1_frame if they are currently enabled by clicking the eye icon next to their names.
+  If you weren't able to make a scan of your hand, you can print the frame I designed for the shape of my hand using the STL I provide [here](https://github.com/wulphred/wearabord/blob/main/files/blender/wearabord.blend), test the fit and download the following Blender project to use as a basis for making an adaptation tailored to the shape of your own hand. Duplicate the v1_positions collection found in the panel on the right side of the screen by right clicking it and selecting "Duplicate Collection", you can rename this copy to v2_positions by double clicking on the name. It's best to toggle the visibility of the v1_positions and v1_frame if they are currently enabled by clicking the eye icon next to their names.
   
   For adjusting the key switch holders' positions, use the rotate and move tools, these can be found on the left side of the canvas or by using the ```Shift``` + ```Space``` shortcut followed by ```G``` for move and ```R``` for rotate. To move the switch holders and other objects along their own axis (when they have already been rotated) you can change the transform orientation to "Local" by clicking on the drop down menu at the top of the canvas in the center that is probably labelled "Global" currently.
 
@@ -461,7 +461,7 @@ If your switches fit in one of the STL models I provided here, you don't need to
 
   Another tool that might come in handy is the "Extrude Region" tool found on the left side of the canvas or activated using the ```Shift``` + ```Space``` shortcut followed by the ```E``` key. To use it, select a face, hold down your left mouse button on the yellow ```+``` icon and drag your mouse outward. Make sure to avoid making the bridges that connect all the parts too thin, otherwise, your frame will be more fragile. I tried to keep the thickness close to the same as the thickness of the switch holders, which are 3.9 m in blender (3.9 mm). The knife tool, found on the left side of the canvas or activated using the ```Shift``` + ```Space``` shortcut followed by the ```K``` key, might be useful to reduce the slope of some of the bridges in order to make them thicker.
 
-  You can use my frame as inspiration for connecting all the parts, which can be viewed here.
+  You can use my frame as inspiration for connecting all the parts, which can be viewed [here](https://github.com/wulphred/wearabord/blob/main/files/stl/wearabord-frame/v1.stl).
 
   ![](media/blender_frame_result.png)
 
@@ -472,7 +472,7 @@ If your switches fit in one of the STL models I provided here, you don't need to
   
   ### Adding holes for the screw inserts
 
-  The final thing we need to add to our frame is the sockets into which we will insert the heat set screw inserts to mount the microcontroller holder. You can download an STL of the sockets here. Import the STL file into your project by selecting "File" > "Import" > "Stl (.stl)". I positioned the sockets on the back of my hand. Make sure that there is no gap between your frame and the sockets, it's not an issue if the bottom of the sockets are positioned slightly inside of the frame model. Make sure the rotation of the sockets is correct for where you want your USB-C port to be and that the controller can be mounted on top, check that you have the correct microcontroller holder orientation by making sure that the side labelled "RIGHT" will be facing up for the frame of your right hand and vice versa. You can join the sockets and the frame and by clicking the right mouse button to select "Join" or using the shortcut ```Ctrl``` + ```J```.
+  The final thing we need to add to our frame is the sockets into which we will insert the heat set screw inserts to mount the microcontroller holder. You can download an STL of the sockets [here](https://github.com/wulphred/wearabord/blob/main/files/stl/scew-insert-sockets/screw_insert_sockets.stl). Import the STL file into your project by selecting "File" > "Import" > "Stl (.stl)". I positioned the sockets on the back of my hand. Make sure that there is no gap between your frame and the sockets, it's not an issue if the bottom of the sockets are positioned slightly inside of the frame model. Make sure the rotation of the sockets is correct for where you want your USB-C port to be and that the controller can be mounted on top, check that you have the correct microcontroller holder orientation by making sure that the side labelled "RIGHT" will be facing up for the frame of your right hand and vice versa. You can join the sockets and the frame and by clicking the right mouse button to select "Join" or using the shortcut ```Ctrl``` + ```J```.
 
   You are now ready to export your frame to an STL to send it to a 3D printer. To do this, while in "Object Mode", select your frame. Select "File" > "Export" > "Stl (.stl)". Make sure that under the "Include" section you have "Selection Only" checked.
 
