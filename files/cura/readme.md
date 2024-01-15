@@ -1,0 +1,3 @@
+# License
+
+The [3mf file for the Wearabord frame](https://github.com/wulphred/wearabord/blob/main/files/cura/v1.stl) contains [the following work](https://github.com/Bastardkb/Charybdis/blob/main/files/mods/printable-btu-screws/bottom.stl) by [Quentin](https://github.com/bstiq) from [Bastardkb](https://github.com/Bastardkb), which is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, and is therefore licensed under the same license.
