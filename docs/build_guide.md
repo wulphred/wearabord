@@ -206,7 +206,7 @@ I used an Ipad (iPhones also work) with FaceID to make the scan. FaceID allows f
 
 I scanned my hand by placing the iPad on a table with the front camera facing downwards, positioned over the edge of the table. To make it easier to control the scanning app, I connected a mouse and mirrored the screen of the iPad to an external display. I was able to make the scan by rotating my wrist in one direction as far as I comfortably could, then pressing the scan button and then, while keeping my fingers as still as I could, rotating my wrist as far as possible in the other direction. Make sure to hold your fingers in a comfortable position that allows for enough movement to press the keys, as the scan will be used as your resting position in relation to the key switches. If it's hard to keep your hand still while rotating, you could also make a scan of just the palm of your hand, including your finger tips, and make a different scan for determining the thickness of your hand, which can be used to design the fit for attaching the frame to your hand.
 
-![](media/hand_scan.mp4)
+https://github.com/wulphred/wearabord/assets/155734133/2957e917-d71c-49ba-88d3-b24bc0ad771e
 
 If you are happy with the result of one of the scans, export it as an OBJ file, select MM for the scale option, enable the "Choose 3D editor" toggle and select Blender. Save it anywhere and transfer it to your computer.
 
