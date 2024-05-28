@@ -6,7 +6,7 @@ This keyboard concept is intended to be personalized to the shape of your own ha
 
 Feel free to [open an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue) in this GitHub repository to share any thoughts on the project or your own build.
 
-![](media/left.jpg)
+![](media/righthand.jpg)
 
 # Features and Demo
 
