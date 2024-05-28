@@ -35,7 +35,7 @@ For my personalized version I used the following parts:
 - MBK PBT Coloured Blank Keycaps (Artic Blue & Mint Green)
 - Perixx PERIPRO-303 GSL Trackball
 
-![](media/right.jpg)
+![](media/rightv2.jpg)
 
 # Firmware and Layout
 
